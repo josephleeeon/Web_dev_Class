@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            list-style-type: none;
+        }
+
+        li[class="a"] {
+            font-size: 3em;
+        }
+
+        li[class="a"]:hover {
+            color: red;
+            list-style-type: none;
+        }
+
+        li[class~="a"] {
+            color: green;
+            
+        }
+
+
+        a{
+            text-decoration:none;
+            color: grey;
+            text-align: right;
+        }
+        /* using psdeoselectors */
+        p::first-line{
+            color: deeppink;
+        }
+
+
+        article*:first-child{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        article*:last-child{
+            font-weight: small;
+
+        }
+
+        .b::before {
+            content: "b class present. ";
+
+        }
+
+    </style>
+</head>
+<body>
+    <a href="#my-section2">click me</a>
+
+    <h1 id="unique">Hello world</h1>
+    <section id="my-section">
+        omo i don tire
+    </section>
+    <br>
+    <br>
+    <br>
+    <section id="my-section2">
+        omo i don tire for everything o
+    </section>
+
+    <article>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolorum tempore voluptates iusto, quibusdam doloremque fugiat debitis voluptatibus non odio, quidem fuga cupiditate qui vel voluptatem iste quia impedit.</p>
+    </article>
+    <article>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolorum tempore voluptates iusto, quibusdam doloremque fugiat debitis voluptatibus non odio, quidem fuga cupiditate qui vel voluptatem iste quia impedit.</p>
+    </article>
+    <article>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolorum tempore voluptates iusto, quibusdam doloremque fugiat debitis voluptatibus non odio, quidem fuga cupiditate qui vel voluptatem iste quia impedit.</p>
+    </article>
+
+    <h1>Attribute and Selectors</h1>
+
+    <ul>
+        <li class="a">item1</li>
+        <li class="b">item2</li>
+        <li class="c">item3</li>
+        <li class="a b">item22</li>
+    </ul>
+
+</body>
+</html>

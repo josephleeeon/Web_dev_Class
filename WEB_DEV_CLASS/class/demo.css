@@ -1,0 +1,18 @@
+h1{
+    color: red;
+}
+
+span,em{
+    color: green;
+}
+
+.special{
+    list-style-type: none;
+    color: orange;
+    font-weight: bold;
+}
+
+li.special-too{
+    color: brown;
+    font-weight: bold;
+}

@@ -1,0 +1,40 @@
+.gist{
+    display: flex;
+}
+
+.maingist{
+    margin-left: 10;
+    margin: 10px;
+    font-size: 35px;
+}
+
+img{
+    width: 650px;
+    height: 850px;
+}
+
+.pic{
+    margin: 0 15px 0 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    
+}
+
+.contact{
+    border: solid 2px;
+    width: fit-content;
+    margin: 20px;
+}
+
+.footer{
+    text-decoration: underline;
+    background: black;
+    color: white;
+    text-align: center;
+    border: ;
+    padding: 60px;
+}

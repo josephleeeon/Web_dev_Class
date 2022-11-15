@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background: rgb(155, 247, 146);
+    background: rgb(43, 45, 66);
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+nav .logo {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+nav ul li a {
+    font-size: 23px;
+    text-transform: capitalize;
+    color: rgb(141, 153, 174);
+    font-weight: 800;
+}
+
+section.container .text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+section.container .text h1 {
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+section.container .text p {
+    color: rgb(141, 153, 174);
+}
+
+section.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px;
+    padding-top: 100px;
+    margin: 100px 0;
+}
+
+form {
+    /* width: 100%; */
+    /* border: 1px solid red; */
+    padding: 10px;
+    background: white;
+    color: rgb(43, 45, 66);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+form .input-area {
+    width: 100%;
+    margin: 15px 0;
+}
+
+form .input-area .name-input {
+    display: flex;
+    gap: 10px;
+}
+
+form .input-area .name-input input {
+    width: 50%;
+}
+
+form .input-area .input input,
+form .input-area .input #select {
+    width: 100%;
+}
+form .input-area .input #select {
+    height: 40px;
+}
+
+form .input-area .name- input {
+    width: 50%;
+}
+
+input {
+    font-size: 20px;
+    padding: 10px 5px;
+}
+
+a.top{
+    background: rgb(141, 153, 174);
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: 900;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    right: 10px;
+    bottom: 100px;
+}
